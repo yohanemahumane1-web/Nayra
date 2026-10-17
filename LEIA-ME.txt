@@ -1,0 +1,39 @@
+SITE ROMÂNTICO — PARA A MINHA WIFE ❤️
+
+FICHEIROS
+- index.html: estrutura do site
+- style.css: cores, layout e animações
+- script.js: cartas, quiz, contador, música e surpresas
+- assets/: coloca aqui as fotografias e a música
+
+COMO ABRIR
+1. Extrai o ZIP.
+2. Abre a pasta e faz duplo clique em index.html.
+3. Para editar o código, abre a pasta no Visual Studio Code.
+
+PERSONALIZAÇÕES IMPORTANTES
+1. Abre script.js e encontra:
+   const relationshipStart = "";
+   Coloca a data em que começaram a namorar, por exemplo:
+   const relationshipStart = "2026-05-23T00:00:00";
+   Usa a data real de vocês. O contador só funciona depois disso.
+
+2. Fotografias:
+   Coloca três imagens na pasta assets com estes nomes:
+   photo1.jpg
+   photo2.jpg
+   photo3.jpg
+   As fotografias aparecem automaticamente nos cartões quando os ficheiros estão na pasta assets com esses nomes.
+
+3. Música:
+   Coloca um ficheiro de áudio que tenhas direito a usar, com o nome:
+   assets/music.mp3
+   A música só começa quando a pessoa carrega em “Ligar música”, porque os navegadores bloqueiam reprodução automática.
+
+4. Textos:
+   Os textos das cartas, perguntas do quiz e declaração final estão em script.js e index.html. Personaliza com detalhes verdadeiros da vossa relação para o site ficar único.
+
+NOTAS
+- Funciona localmente e pode ser publicado num serviço de alojamento estático, como GitHub Pages.
+- A fonte do Google pode precisar de Internet; existem fontes de reserva.
+- O site não envia dados nem recolhe informações pessoais.

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#12090f">
+  <meta name="description" content="Uma surpresa digital feita com amor, para a minha Wife.">
+  <title>Para a minha Wife ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Início">Nayra Uamusse & Johane Mahumane<span>♥</span></a>
+    <button class="music-button" id="musicToggle" type="button" aria-pressed="false">
+      <span id="musicIcon">♫</span> <span id="musicLabel"> <a href=https://open.spotify.com/track/0JXXNGljqupsJaZsgSbMZV?si=a23a708ba53f448a>link música</a></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <p class="eyebrow"><span class="sparkle">✦</span> UMA PEQUENA SURPRESA PARA TI <span class="sparkle">✦</span></p>
+      <div class="hero-heart" aria-hidden="true">♥</div>
+      <h1>Para a minha<br><em>Wife.</em></h1>
+      <p class="hero-copy">Fiz este cantinho só para ti.<br>Porque há coisas que merecem mais do que uma mensagem.</p>
+      <button class="primary-button" id="openSurprise" type="button">Abrir a minha surpresa <span>♡</span></button>
+      <p class="scroll-note">Feito com amor, só para ti ↓</p>
+    </section>
+
+    <section class="section intro reveal" id="mensagem">
+      <p class="eyebrow">ANTES DE CONTINUARES</p>
+      <h2>Se pudesse oferecer-te<br>uma coisa agora...</h2>
+      <p class="section-copy">Seria a oportunidade de te veres por alguns minutos através dos meus olhos. Talvez assim entendesses por que és tão especial para mim.</p>
+      <div class="quote-card">
+        <span class="quote-mark">“</span>
+        <p>Não precisas de uma ocasião especial para merecer amor. Tu és motivo suficiente.</p>
+        <span class="quote-signature">— Para a minha Wife ♥</span>
+      </div>
+    </section>
+
+    <section class="section reveal" id="tempo">
+      <p class="eyebrow">CADA MOMENTO CONTA</p>
+      <h2>O nosso tempo,<br><em>à nossa maneira.</em></h2>
+      <p class="section-copy">Cada segundo tem mais significado quando existe alguém que torna os dias especiais.</p>
+      <div class="counter-card">
+        <p class="counter-label">DESDE O NOSSO DIA ESPECIAL</p>
+        <div class="counter-grid">
+          <div><strong id="days">80</strong><span>dias</span></div>
+          <div><strong id="hours"></strong><span>horas</span></div>
+          <div><strong id="minutes">—</strong><span>minutos</span></div>
+          <div><strong id="seconds">—</strong><span>segundos</span></div>
+        </div>
+        <p class="small-note" id="counterNote">Personaliza a data no ficheiro script.js para começar a contar.</p>
+      </div>
+    </section>
+
+    
+
+    <section class="section reveal" id="cartas">
+      <p class="eyebrow">LÊ QUANDO PRECISARES</p>
+      <h2>Cartas para a<br><em>minha pessoa.</em></h2>
+      <p class="section-copy">Escolhe uma carta. Cada uma guarda algumas palavras para um momento diferente.</p>
+      <div class="letter-list">
+        <button class="letter-button" type="button" data-letter="saudades"><span class="letter-icon">✉</span><span><strong>Abre quando tiveres saudades minhas</strong><small>Para te sentir um bocadinho mais perto.</small></span><span class="letter-arrow">↗</span></button>
+        <button class="letter-button" type="button" data-letter="triste"><span class="letter-icon">♡</span><span><strong>Abre quando estiveres triste</strong><small>Um abraço em forma de palavras.</small></span><span class="letter-arrow">↗</span></button>
+        <button class="letter-button" type="button" data-letter="sorrir"><span class="letter-icon">✦</span><span><strong>Abre quando precisares de sorrir</strong><small>Um lembrete de que és especial.</small></span><span class="letter-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section reveal" id="quiz">
+      <p class="eyebrow">VAMOS VER SE SABES...</p>
+      <h2>Um pequeno jogo<br><em>sobre nós.</em></h2>
+      <p class="section-copy">Não há respostas erradas. Se nunca estas errada. ❤️</p>
+      <div class="quiz-card">
+        <p class="quiz-number" id="quizNumber">PERGUNTA 1 DE 3</p>
+        <h3 id="quizQuestion">O que eu mais quero ver no teu rosto?</h3>
+        <div class="quiz-options" id="quizOptions">
+          <button type="button" data-answer="0">O teu sorriso</button>
+          <button type="button" data-answer="1">Uma cara séria</button>
+          <button type="button" data-answer="2">Uma expressão de sono</button>
+        </div>
+        <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+        <button class="text-button hidden" id="nextQuestion" type="button">Próxima pergunta →</button>
+      </div>
+    </section>
+
+    <section class="section final-section reveal" id="final">
+      <div class="final-orbit" aria-hidden="true"><span>♥</span></div>
+      <p class="eyebrow">A ÚLTIMA SURPRESA</p>
+      <h2>Há algo que<br>quero que <em>saibas.</em></h2>
+      <p class="section-copy">Chegaste ao fim desta pequena surpresa, mas as palavras mais importantes ficaram guardadas aqui.</p>
+      <button class="primary-button" id="revealFinal" type="button">Ler a minha declaração <span>♡</span></button>
+      <div class="final-letter hidden" id="finalLetter">
+        <p class="letter-greeting">Minha Nayra, minha Wife. ❤️</p>
+
+    <p>
+        Obrigado por fazeres parte da minha vida e por todos os momentos
+        que já vivemos juntos. Talvez os meses que passaram possam parecer
+        pouco para algumas pessoas, mas, para mim, cada momento contigo
+        tem um valor especial.
+    </p>
+
+    <p>
+        Às vezes, basta ver-te para o meu dia ficar melhor. Basta o teu
+        sorriso, a tua presença ou até uma conversa simples contigo para
+        tudo parecer um pouco mais bonito. Porque és tu, Nayra, e é
+        exatamente isso que torna tudo tão especial. Até as coisas mais
+        simples ganham outro significado quando são vividas contigo.
+    </p>
+
+    <p>
+        Quero que te lembres de que és importante para mim, não apenas
+        nos dias bonitos, mas também naqueles em que as coisas não correm
+        bem. Quero continuar a construir memórias contigo, conhecer cada
+        vez mais o teu coração e descobrir, ao teu lado, tudo aquilo que
+        ainda temos para viver.
+    </p>
+
+    <p>
+        Não fiz este site porque precisava de uma ocasião especial.
+        Fiz porque mereces gestos que te recordem o lugar que ocupas
+        no meu coração. Queria criar algo nosso, algo que pudesses visitar
+        e que te fizesse sorrir, lembrando-te de que existe alguém que
+        fica feliz simplesmente por te ter na vida.
+    </p>
+
+    <p>
+        Sei que nem todos os dias serão perfeitos, mas espero que nunca
+        nos faltem carinho, respeito, sinceridade, compreensão e vontade
+        de continuarmos a escolher um ao outro, dia após dia. Quero que
+        os nossos momentos, sejam grandes ou pequenos, continuem a ter
+        histórias que um dia recordaremos com um sorriso.
+    </p>
+
+    <p>
+        Nayra, obrigado por seres tu, por fazeres parte da minha história
+        e por dares um significado tão bonito a tantos momentos da minha
+        vida. Se há algo que quero que guardes depois de leres estas
+        palavras, é isto: a tua presença faz diferença na minha vida,
+        e fico feliz por poder partilhar esta caminhada contigo.
+    </p>
+
+    <p class="final-signature">
+       <p class="final-signature">Colossenses 3:13 </p>
+       <p class="final-signature"> uns aos outros, e perdoando-vos uns aos outros, se alguém tiver queixa contra outro; assim como Cristo vos perdoou, assim fazei vós também. 14 E, sobre tudo isto, revesti-vos de amor, que é o vínculo da perfeição.</p>
+        <span>♥</span>
+    </p>
+    <p></p>
+
+    
+      </div>
+      <button class="text-button restart-button" id="backToTop" type="button">Voltar ao início ↑</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com <span>♥</span> para a minha Wife.</p>
+    <small>minha 1.60m ♥</small>
+  </footer>
+
+  <dialog id="letterDialog" class="letter-dialog">
+    <button class="dialog-close" id="closeDialog" type="button" aria-label="Fechar">×</button>
+    <span class="dialog-heart">♡</span>
+    <p class="eyebrow" id="dialogEyebrow">UMA CARTA PARA TI</p>
+    <h2 id="dialogTitle">Minha Wife</h2>
+    <div id="dialogText" class="dialog-text"></div>
+  </dialog>
+
+  <audio id="backgroundMusic" loop preload="none">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
